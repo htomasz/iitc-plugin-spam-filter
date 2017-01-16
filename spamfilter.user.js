@@ -4,7 +4,7 @@
 // @category       Misc
 // @version        0.1.0
 // @namespace      https://github.com/3ch01c/ingress-intel-total-conversion
-// @description    This is a spam filter plugin which filters out SPAM from Comm messages.
+// @description    This is a spam filter plugin which filters out SPAM from Comm/Faction messages.
 // @include        https://www.ingress.com/intel*
 // @include        http://www.ingress.com/intel*
 // @match          https://www.ingress.com/intel*
