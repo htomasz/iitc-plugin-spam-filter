@@ -42,6 +42,8 @@ var setup = function() {
 				continue;
 			} else if (text.search(/ECWID\.COM/)>=0) {
 				continue;
+			}else if (text.search(/ingressfarm\.COM/)>=0) {
+				continue;
 			}
 			
 			filteredData[key] = data[key];
