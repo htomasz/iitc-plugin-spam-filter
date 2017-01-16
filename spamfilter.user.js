@@ -40,7 +40,10 @@ var setup = function() {
 				continue;
 			} else if (text.search(/ingress-shop\.net/)>=0) {
 				continue;
+			} else if (text.search(/ALLFORINGRESS.ECWID\.COM/)>=0) {
+				continue;
 			}
+			
 			filteredData[key] = data[key];
 		}
 		renderData_orig(filteredData, element, likelyWereOldMsgs);
