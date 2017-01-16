@@ -44,8 +44,8 @@ var setup = function() {
 			filteredData[key] = data[key];
 		}
 		renderData_orig(filteredData, element, likelyWereOldMsgs);
-	}
-}
+	};
+};
 
 //PLUGIN END //////////////////////////////////////////////////////////
 
