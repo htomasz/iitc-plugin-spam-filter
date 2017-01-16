@@ -14,8 +14,8 @@
 // @match          https://www.ingress.com/mission/*
 // @match          http://www.ingress.com/mission/*
 // @grant          none
-// @updateURL      https://github.com/Eccenux/iitc-plugin-spam-filter/raw/master/spamfilter.meta.js
-// @downloadURL    https://github.com/Eccenux/iitc-plugin-spam-filter/raw/master/spamfilter.user.js
+// @updateURL      https://github.com/htomasz/iitc-plugin-spam-filter/raw/master/spamfilter.meta.js
+// @downloadURL    https://github.com/htomasz/iitc-plugin-spam-filter/raw/master/spamfilter.user.js
 // ==/UserScript==
 
 
