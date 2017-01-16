@@ -40,7 +40,7 @@ var setup = function() {
 				continue;
 			} else if (text.search(/ingress-shop\.net/)>=0) {
 				continue;
-			} else if (text.search(/ALLFORINGRESS.ECWID\.COM/)>=0) {
+			} else if (text.search(/ECWID\.COM/)>=0) {
 				continue;
 			}
 			
