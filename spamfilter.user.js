@@ -38,6 +38,8 @@ var setup = function() {
 			var text = data[key][2];
 			if (text.search(/xmps\.biz/)>=0) {
 				continue;
+			} else if (text.search(/ingress-shop\.net/)>=0) {
+				continue;
 			}
 			filteredData[key] = data[key];
 		}
