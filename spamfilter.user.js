@@ -36,20 +36,20 @@ var setup = function() {
 				continue;
 			}
 			var text = data[key][2];
-			if (text.search(/xmps\.biz/)>=0) {
+			if (text.search(/ecwid\.com|ingressfarm\.com|ECWID\.COM|xmps\.biz|ingress-(shop|store)|(store|shop)-ingress|ingressfarm\.(com|net)/i)>=0) {
 				continue;
-			} else if (text.search(/ingress-shop\.net/)>=0) {
-				continue;
-			} else if (text.search(/ECWID\.COM/)>=0) {
-				continue;
-			} else if (text.search(/ingressfarm\.com/)>=0) {
-				continue;
-			} else if (text.search(/ingintems\.net/)>=0) {
-				continue;
-			} else if (text.search(/shop-ingress\.com/)>=0) {
-				continue;
-			} else if (text.search(/ecwid\.com/)>=0) {
-				continue;
+			//} else if (text.search(/ingress-shop\.net/)>=0) {
+			//	continue;
+			//} else if (text.search(/ECWID\.COM/)>=0) {
+			//	continue;
+			//} else if (text.search(/ingressfarm\.com/)>=0) {
+			//	continue;
+			//} else if (text.search(/ingintems\.net/)>=0) {
+			//	continue;
+			//} else if (text.search(/shop-ingress\.com/)>=0) {
+			//	continue;
+			//} else if (text.search(/ecwid\.com/)>=0) {
+			//	continue;
 			}
 			
 			filteredData[key] = data[key];
