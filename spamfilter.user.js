@@ -2,7 +2,7 @@
 // @id             iitc-plugin-spam-filter@3ch01c
 // @name           IITC plugin: spam-filter
 // @category       Misc
-// @version        0.2.0.1
+// @version        0.2.0.2
 // @namespace      https://github.com/3ch01c/ingress-intel-total-conversion
 // @description    This is a spam filter plugin which filters out SPAM from Comm/Faction messages.
 // @include        https://www.ingress.com/intel*
@@ -36,20 +36,22 @@ var setup = function() {
 				continue;
 			}
 			var text = data[key][2];
-			if (text.search(/ecwid\.com|ingressfarm\.com|ECWID\.COM|xmps\.biz|ingress-(shop|store)|(store|shop)-ingress|ingressfarm\.(com|net)/i)>=0) {
+			if (text.search(/xmps\.biz)>=0) {
 				continue;
-			//} else if (text.search(/ingress-shop\.net/)>=0) {
-			//	continue;
-			//} else if (text.search(/ECWID\.COM/)>=0) {
-			//	continue;
-			//} else if (text.search(/ingressfarm\.com/)>=0) {
-			//	continue;
-			//} else if (text.search(/ingintems\.net/)>=0) {
-			//	continue;
-			//} else if (text.search(/shop-ingress\.com/)>=0) {
-			//	continue;
-			//} else if (text.search(/ecwid\.com/)>=0) {
-			//	continue;
+			} else if (text.search(/ingress-shop\.net/)>=0) {
+				continue;
+			} else if (text.search(/ECWID\.COM/)>=0) {
+				continue;
+			} else if (text.search(/ingressfarm\.com/)>=0) {
+				continue;
+			} else if (text.search(/ingintems\.net/)>=0) {
+				continue;
+			} else if (text.search(/shop-ingress\.com/)>=0) {
+				continue;
+			} else if (text.search(/ecwid\.com/)>=0) {
+				continue;
+			} else if (text.search(/ingress-store\.net/)>=0) {
+				continue;
 			}
 			
 			filteredData[key] = data[key];
