@@ -36,7 +36,7 @@ var setup = function() {
 				continue;
 			}
 			var text = data[key][2];
-			if (text.search(/ingintems\.net|ecwid\.com|ECWID\.COM|xmps\.biz|ingress-(shop|store)|(store|shop)-ingress|ingressfarm\.com/i)>=0) {
+			if (text.search(/ingress-items-buy\.com|ingintems\.net|ecwid\.com|ECWID\.COM|xmps\.biz|ingress-(shop|store)|(store|shop)-ingress|ingressfarm\.com/i)>=0) {
 				continue;
 			}
 			filteredData[key] = data[key];
